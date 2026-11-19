@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Mock Exchange/title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1> Mock Exchange</h1>
+
+  <input id="symbol" placeholder="AAPL or MSFT">
+  <button onclick="loadStock()">Search</button>
+
+  <p id="price">Price: --</p>
+  <p id="feedback">Feedback: --</p>
+  <p id="balance">Balance: $10000</p>
+  <button onclick="buyStock()">Buy 1 Share</button>
+  <button onclick="sellStock()">Sell 1 Share</button>
+<p id="totalPL">Total P/L: $0.00</p>
+<div id="portfolio">Portfolio: none</div>
+  <hr>
+
+<h2> Stock Market Challenge</h2>
+
+<p id="challengeQuestion">Click “New Question”</p>
+
+<button onclick="answerQuestion(0)" id="opt0">A</button>
+<button onclick="answerQuestion(1)" id="opt1">B</button>
+<button onclick="answerQuestion(2)" id="opt2">C</button>
+
+<p id="challengeResult"></p>
+
+<button onclick="newQuestion()">New Question</button>
+<script src="script.js"></script>
+</body>
+</html>

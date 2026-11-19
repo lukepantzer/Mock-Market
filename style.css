@@ -1,0 +1,16 @@
+body {
+  background-color: #0b1c2d; /* navy blue */
+  color: rgb(255, 255, 255);
+
+  font-family: Times 'Times New Roman', Times, serif Roman, sans-serif;
+}
+
+h1 {
+  margin-top: 40px;
+.card {
+  background: #111827;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 30px auto;
+  max-width: 600px;
+}}
